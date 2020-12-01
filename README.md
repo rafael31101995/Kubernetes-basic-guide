@@ -80,7 +80,7 @@ __delete__
 
 ## Bibliografia
 
-- https://www.profissionaisti.com.br/o-que-e-o-kubernetes-e-sua-importancia/
+- [O que é o kubernetes e a sua importância](https://www.profissionaisti.com.br/o-que-e-o-kubernetes-e-sua-importancia/)
 - https://medium.com/pixelpoint/kubernetes-port-forwarding-simple-like-never-before-20a8ab16370f
 - https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
 - https://docs.microsoft.com/pt-br/azure/aks/concepts-clusters-workloads
