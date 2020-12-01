@@ -35,14 +35,13 @@ __É bem parecido com um instalador de pacotes, porém ele foca na instalação 
 - https://medium.com/@maths.nunes/o-que-%C3%A9-o-helm-e-porque-voc%C3%AA-deve-us%C3%A1-lo-508b7350dcd
 - https://github.com/cetic/helm-nifi
 
+# Kubernetes
+
+__Um orquestrador de containers. É uma uma plataforma de código aberto usada para orquestrar e gerenciar clusters de contêineres, eliminando a maior parte dos processos manuais necessários para implantar e escalar os aplicativos em contêineres.__
 
 # Kubectl
 
 __Linha de comando para interação com o kubernetes.__
-
-# Kubernetes
-
-__Um orquestrador de containers. É uma uma plataforma de código aberto usada para orquestrar e gerenciar clusters de contêineres, eliminando a maior parte dos processos manuais necessários para implantar e escalar os aplicativos em contêineres.__
 
 - Instalando o kubectl
 
