@@ -36,9 +36,13 @@ __É bem parecido com um instalador de pacotes, porém ele foca na instalação 
 - https://github.com/cetic/helm-nifi
 
 
-# Kubectl & Kubernetes
+# Kubectl
 
 __Linha de comando para interação com o kubernetes.__
+
+# Kubernetes
+
+__Um orquestrador de containers. É uma uma plataforma de código aberto usada para orquestrar e gerenciar clusters de contêineres, eliminando a maior parte dos processos manuais necessários para implantar e escalar os aplicativos em contêineres.__
 
 - Instalando o kubectl
 
@@ -46,13 +50,6 @@ __Linha de comando para interação com o kubernetes.__
         chmod +x kubectl && sudo mv kubectl /usr/local/bin/
         kubectl version --client
         kubectl get nodes
-
-## Bibliografia
-
-https://kubernetes.io/docs/tasks/tools/install-kubectl/
-
-
-__Um orquestrador de containers. É uma uma plataforma de código aberto usada para orquestrar e gerenciar clusters de contêineres, eliminando a maior parte dos processos manuais necessários para implantar e escalar os aplicativos em contêineres.__
 
 ## Recusos
 __Pod__
@@ -89,6 +86,7 @@ __delete__
 - https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
 - https://docs.microsoft.com/pt-br/azure/aks/concepts-clusters-workloads
 - https://kubernetes.io/docs/reference/kubectl/overview/
+- https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
 
 # Port-forward
