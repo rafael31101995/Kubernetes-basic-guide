@@ -3,7 +3,8 @@
 __O kind é uma ferramenta para executar localmente um cluster kubernetes usando o docker. Os comando do kind ficam dentro do arquivo kind, por isso é necessário primeiro o path depois os comandos que deseja.__
 
 - Instalando o docker e dando a permisão de sudo para o usuário.
-
+        
+        sudo apt install docker-ce
         sudo curl -L https://get.docker.com/ | bash
         sudo usermod -aG docker $USER
 
