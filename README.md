@@ -2,7 +2,7 @@
 
 __O kind é uma ferramenta para executar localmente um cluster kubernetes usando o docker. Os comando do kind ficam dentro do arquivo kind, por isso é necessário primeiro o path depois os comandos que deseja.__
 
-- Instalando o docker e dando a permisão de sudo para o usuário.\
+- Instalando o docker e dando a permisão de sudo para o usuário.
 
         sudo curl -L https://get.docker.com/ | bash
         sudo usermod -aG docker $USER
@@ -29,11 +29,7 @@ __É bem parecido com um instalador de pacotes, porém ele foca na instalação 
         echo "deb https://baltocdn.com/helm/stable/debian/ all main" | sudo tee /etc/apt/sources.list.d/helm-stable-debian.list
         sudo apt-get update
         sudo apt-get install helm
-
-## Bibliografia
-
-- https://medium.com/@maths.nunes/o-que-%C3%A9-o-helm-e-porque-voc%C3%AA-deve-us%C3%A1-lo-508b7350dcd
-- https://github.com/cetic/helm-nifi
+        
 
 # Kubernetes
 
@@ -49,6 +45,7 @@ __Linha de comando para interação com o kubernetes.__
         chmod +x kubectl && sudo mv kubectl /usr/local/bin/
         kubectl version --client
         kubectl get nodes
+
 
 ## Recusos
 __Pod__
@@ -78,15 +75,6 @@ __get__
 __delete__
 - Excluir recursos de um arquivo, stdin ou especificando seletores de rótulo, nomes, seletores de recursos ou recursos.
 
-## Bibliografia
-
-- [O que é o kubernetes e a sua importância](https://www.profissionaisti.com.br/o-que-e-o-kubernetes-e-sua-importancia/)
-- https://medium.com/pixelpoint/kubernetes-port-forwarding-simple-like-never-before-20a8ab16370f
-- https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
-- https://docs.microsoft.com/pt-br/azure/aks/concepts-clusters-workloads
-- https://kubernetes.io/docs/reference/kubectl/overview/
-- https://kubernetes.io/docs/tasks/tools/install-kubectl/
-
 
 # Port-forward
 
@@ -98,7 +86,24 @@ Exemplo do comando para rodar o nifi na porta 8080 direto no localhost.
 
         kubectl port-forward my-release-nifi-0 8080:8080 -n mundodocker
 
+
+## Bibliografia
+
+- https://medium.com/@maths.nunes/o-que-%C3%A9-o-helm-e-porque-voc%C3%AA-deve-us%C3%A1-lo-508b7350dcd
+- https://github.com/cetic/helm-nifi
+
+
+## Bibliografia
+
+- [O que é o kubernetes e a sua importância](https://www.profissionaisti.com.br/o-que-e-o-kubernetes-e-sua-importancia/)
+- https://medium.com/pixelpoint/kubernetes-port-forwarding-simple-like-never-before-20a8ab16370f
+- https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
+- https://docs.microsoft.com/pt-br/azure/aks/concepts-clusters-workloads
+- https://kubernetes.io/docs/reference/kubectl/overview/
+- https://kubernetes.io/docs/tasks/tools/install-kubectl/
+
 ## Bibliografia
 
 - https://medium.com/pixelpoint/kubernetes-port-forwarding-simple-like-never-before-20a8ab16370f
 - https://github.com/AlexsJones/kubernetes-nifi-cluster
+
