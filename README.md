@@ -87,13 +87,13 @@ Exemplo do comando para rodar o nifi na porta 8080 direto no localhost.
         kubectl port-forward my-release-nifi-0 8080:8080 -n mundodocker
 
 
-## Bibliografia
+## Bibliografia helm
 
 - https://medium.com/@maths.nunes/o-que-%C3%A9-o-helm-e-porque-voc%C3%AA-deve-us%C3%A1-lo-508b7350dcd
 - https://github.com/cetic/helm-nifi
 
 
-## Bibliografia
+## Bibliografia kubectl & kubernetes
 
 - [O que é o kubernetes e a sua importância](https://www.profissionaisti.com.br/o-que-e-o-kubernetes-e-sua-importancia/)
 - https://medium.com/pixelpoint/kubernetes-port-forwarding-simple-like-never-before-20a8ab16370f
@@ -102,7 +102,7 @@ Exemplo do comando para rodar o nifi na porta 8080 direto no localhost.
 - https://kubernetes.io/docs/reference/kubectl/overview/
 - https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
-## Bibliografia
+## Bibliografia port-forward
 
 - https://medium.com/pixelpoint/kubernetes-port-forwarding-simple-like-never-before-20a8ab16370f
 - https://github.com/AlexsJones/kubernetes-nifi-cluster
