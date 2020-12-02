@@ -102,6 +102,7 @@ Exemplo do comando para rodar o nifi na porta 8080 direto no localhost.
 - https://docs.microsoft.com/pt-br/azure/aks/concepts-clusters-workloads
 - https://kubernetes.io/docs/reference/kubectl/overview/
 - https://kubernetes.io/docs/tasks/tools/install-kubectl/
+- [Explicação mais detalhada sobre pods](https://kubernetes.io/docs/concepts/workloads/pods/)
 
 ## Bibliografia port-forward
 
