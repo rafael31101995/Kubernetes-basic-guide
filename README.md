@@ -21,13 +21,19 @@ __O kind é uma ferramenta para executar localmente um cluster kubernetes usando
 
 # Helm
 
-__É bem parecido com um instalador de pacotes, porém ele foca na instalação de softwares de maneira rápida e facil.__
+__O helm instala charts no kubernetes, criando um novo release para cada instalação e para encontrar novos charts você pode pesquisar por repositórios do helm chart que você deseja.__
 
 
 __Chart__
 - Chart é um pacote helm, ele contém todas as definições de recursos necessárias para executar um aplicativo, ferramenta ou serviço dentro de um cluster Kubernetes.
 
-- Como instalar
+__Release__
+- O release é uma instância de um chart em execução em um cluster Kubernetes. Muitas vezes, um chart pode ser instalado várias vezes no mesmo cluster. E cada vez que ele é instalado, uma nova versão é criada. Considere um gráfico MySQL. Se você deseja dois bancos de dados em execução em seu cluster, pode instalar esse chart duas vezes. Cada um terá seu próprio release, que por sua vez terá seu próprio nome de release.
+
+
+[As informações acima foram retiradas da documentação do helm.](https://helm.sh/docs/intro/using_helm/)
+
+- Como instalar o helm
 
         curl https://baltocdn.com/helm/signing.asc | sudo apt-key add -
         sudo apt-get install apt-transport-https --yes
