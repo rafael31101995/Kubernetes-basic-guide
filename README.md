@@ -22,6 +22,8 @@ __O kind é uma ferramenta para executar localmente um cluster kubernetes usando
 # Helm
 
 __É bem parecido com um instalador de pacotes, porém ele foca na instalação de softwares de maneira rápida e facil.__
+
+
 __Chart__
 - Chart é um pacote helm, ele contém todas as definições de recursos necessárias para executar um aplicativo, ferramenta ou serviço dentro de um cluster Kubernetes.
 
